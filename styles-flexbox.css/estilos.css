@@ -1,0 +1,96 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: black;
+}
+
+header{
+    background-image: url(../images/design1_image2.jpg);
+    height: 200px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    border: 2px solid rgb(224, 24, 24);
+    margin-bottom: 0px;
+    align-items: center;
+    gap: 75px;
+}
+
+h1 {
+    flex-wrap: wrap;
+    font-size: 2em;
+    margin-bottom: 20px;
+    color: rgb(245, 9, 9);
+    text-shadow: 3px solid black;
+    display: flex;
+    align-content: center;
+}
+
+nav {
+    gap: 10px;
+    display: flex;
+
+    justify-content: center;
+    background-color: black;
+}
+
+.logo{
+    width: 200px;
+    height: 200px; 
+}
+
+nav a {
+    padding: 10px; 
+    background-color: #fc0101;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    width: auto;
+    height: 40px;
+}
+
+nav a:hover {
+    background-color: #a13434;
+}
+
+
+main {
+ text-align: center;
+    background-color: black;
+}
+
+h2 {
+    background-color: black;
+    color: white;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #a13436;
+    display: flex;
+    justify-content: center;
+}
+
+.container{
+    display: flex;
+    align-items: center;
+}
+
+
+article {
+   color: white;
+    width: 70%;
+}
+.nav-about{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.main-about{
+    display: flex;
+    justify-content: center;
+}
+.contact-main{
+    display: flex;
+}
