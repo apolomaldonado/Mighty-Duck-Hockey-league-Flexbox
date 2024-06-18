@@ -55,6 +55,9 @@ nav a {
 nav a:hover {
     background-color: #a13434;
 }
+nav a:active{
+    background-color: #a13436;
+}
 
 
 main {
@@ -163,4 +166,7 @@ strong{
 .contacto{
     display: flex;
     justify-content: space-between;
+}
+aside{
+    text-align: center;
 }
